@@ -1,0 +1,72 @@
+
+body {
+    margin : 0;
+    padding :0%;
+    height: 100%;
+    background-color: rgba(142, 123, 219, 1); 
+    background-image: url("https://economictimes.indiatimes.com/thumb/msid-92590513,width-1200,height-900,resizemode-4,imgsize-100510/productivity.jpg?from=mdr");
+    background-blend-mode: multiply;
+    color: #fdfaff;
+    
+}
+
+form{
+    background-color:rgba(46, 39, 71,0.97) ;
+    font-family: Helvetica, sans-serif ;
+    width: 80vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto ; 
+    border-radius: 6px;
+    padding: 1em;
+    
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,textarea, select{
+    width: 100%;
+    min-height: 2.5em;
+    margin: 10px 0px 15;
+    border-radius: 5px;
+    
+}
+
+h1, p{
+    text-align: center;
+    font-family: Trebuchet MS, sans-serif;
+    color: #fdfaff;
+    
+}
+
+p{
+    font-style: italic;
+    padding: 7px;
+}
+
+fieldset{
+    border: none;
+} 
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+   
+}
+
+
+  input[type="submit"] {
+    display: block;
+    width: 94.5%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #07d92d;
+    color: white; 
+    min-width: 300px;
+  }
+
+  
